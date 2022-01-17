@@ -1,0 +1,76 @@
+
+.image {
+    float: right;
+    width: 500px;
+    height: 300px;
+}
+
+.text {
+    float: left;
+    width: 500px;
+}
+.clear {
+    clear: both;
+}
+.wraper::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.text2::before {
+    content: '';
+    color: red;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.text2::after {
+    content: '';
+    background-color: red;
+    width: 50px;
+    height: 2px;
+    margin: 20px auto;
+    display: block;
+}
+.text2::before {
+    content: '';
+    background-color:green;
+    width: 50px;
+    height: 2px;
+    margin: 20px auto;
+    display: block;
+}
+
+.box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.left-wraper {
+    float: left;
+    background-color: seagreen;
+    width: 500px;
+}
+
+.right-wraper {
+    float: right;
+    background-color: red;
+    width: 500px;
+
+}
+
+.image1 {
+    float: right;
+    width: 550px;
+}
+.image2 {
+    float: left;
+    width: 570px;
+}
+.clear {
+    clear: both;
+}
+.box::after {
+    content: '';
+    clear: both;
+    display: block;
+}
